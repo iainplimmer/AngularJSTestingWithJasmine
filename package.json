@@ -4,7 +4,7 @@
   "description": "A simple app to test jasmine in AngularJS",
   "main": "index.js",
   "scripts": {
-    "start": "lite-server"
+    "start": "concurrently \"gulp\" \"lite-server\""
   },
   "keywords": [
     "testing",
@@ -19,6 +19,10 @@
     "angular": "^1.6.5",
     "angular-mocks": "^1.6.5",
     "angular-ui-router": "^1.0.3",
+    "concurrently": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-angular": "^3.0.0",
+    "eslint-plugin-import": "^2.7.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "jasmine-core": "^2.6.4",
