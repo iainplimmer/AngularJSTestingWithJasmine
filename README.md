@@ -1,1 +1,6 @@
-Hello world!
+**To get started**
+
+npm install
+
+
+gulp 
