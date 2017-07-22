@@ -1,0 +1,29 @@
+{
+  "name": "ng-testing",
+  "version": "0.0.1",
+  "description": "A simple app to test jasmine in AngularJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [
+    "testing",
+    "jasmine",
+    "angular",
+    "javascript"
+  ],
+  "author": "Iain Plimmer",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "^1.6.5",
+    "angular-mocks": "^1.6.5",
+    "angular-ui-router": "^1.0.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "jasmine-core": "^2.6.4",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0"
+  }
+}
